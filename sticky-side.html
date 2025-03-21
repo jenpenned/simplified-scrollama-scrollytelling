@@ -76,16 +76,6 @@
 
   <body>
     <main>
-      <nav>
-        <a href="https://github.com/russellgoldenberg/scrollama">scrollama.js</a>
-        <div class="nav__examples">
-          <p>Examples:</p>
-          <a href="basic.html">Basic</a>
-          <a href="progress.html">Progress</a>
-          <a href="sticky-side.html">Sticky Side</a>
-          <a href="sticky-overlay.html">Sticky Overlay</a>
-        </div>
-      </nav>
       <section id="intro">
         <h1 class="intro__hed">Sticky Side Example</h1>
         <p class="intro__dek">
@@ -121,6 +111,7 @@
     <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
     <script src="https://unpkg.com/scrollama"></script>
     <script>
+      
       // using d3 for convenience
       var main = document.querySelector("main");
       var scrolly = main.querySelector("#scrolly");
@@ -161,5 +152,10 @@
       // kick things off
       init();
     </script>
+    <scrip>
+      // JS needed on Child Page
+      var pymChild = new pym.Child();
+    </scrip>
+    
   </body>
 </html>
