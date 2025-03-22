@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
     <style>
+
       #scrolly {
         position: relative;
         display: -webkit-box;
@@ -140,7 +141,7 @@
         scroller
           .setup({
             step: "#scrolly article .step",
-            offset: 0.33,
+            offset: 0.5,
             debug: true
           })
           .onStepEnter(handleStepEnter);
@@ -152,10 +153,11 @@
       // kick things off
       init();
     </script>
-    <scrip>
+  
+    <script>
       // JS needed on Child Page
       var pymChild = new pym.Child();
-    </scrip>
+    </script>
     
   </body>
 </html>
